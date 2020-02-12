@@ -1,0 +1,225 @@
+<!DOCTYPE = HTML>
+<html lang="<%= config.language %>"
+    <head>
+        <!--Page Title -->
+        <title>Maddie Grady</title>
+        <!-- CSS -->
+        <!-- Bootstrap CSS CDN -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/84793fd9ad.js" crossorigin="anonymous"></script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="-10">
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <span class="nav-item order-md-last">
+                <a href="https://www.linkedin.com/in/maddiegrady/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://twitter.com/GradyMaddie"><i class="fab fa-twitter-square fa-2x"></i></a>
+
+                
+            </span>
+            <div class = "navbar-collapse collapse" id = "navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Top Banner-->
+        <div class="hero-image">
+            <div class="hero-text">
+                <h4 align="center" style= "color:white; padding-top:30px;font-style:italic"> Hey There!</h4>
+                <h1>I'm Maddie Grady</h1>
+                <p style = " padding-bottom: 10px">And I'm a Data Scientist</p>
+                <a href = "#section1"<button class = "btn btn-primary">Find out About Me</button></a>
+            </div>
+        </div>
+        
+        <!--About Me-->
+        <div id="section1" class="container-fluid" style= "padding-top:70px;padding-bottom:70px">
+            <div class = "row">
+                <div class = "col-lg-1 col-md-1 d-none d-sm-block">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 " style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px' >
+                    <p>I'm an <b>aspiring data scientist</b> and <b>PhD Student</b> at <a href = "https://www.aber.ac.uk/en/">Aberystwyth University</a>. I love unpicking big data, solving mysteries and discovering new things about our world! You can find me engrossed in python environments analysing and modelling data, sourcing information to build databases of the real world in GIS software or even sharpening my HTML skills to create web pages like this one. </p>
+                    <p><b>At heart I am a problem solver</b>. I love to sit and take things apart and figure out the solution in my head. Whether it's determining the most efficient code to analyse a time series or discovering the best graph to spread the message I've found in some data, <b>I love the challenge of finding out how it can be done</b> and devising and working on the solution. I think my problem solving brain is why I love to study languages - both coding and spoken - and the satisfaction I feel from finding just the right word for a piece of writing. As long as I have some sort of problem or something to puzzle over I'm happy!</p>
+                    <p> I want to be involved in <b>challenging projects, join an amazing team and advance my data science career.</b> Please take some time to look at my work and resume. If you’re interested in making this happen, <a tabindex = "0" class = "text-primary"data-toggle = "popover" data-trigger="focus"title="Contact Me" data-content = "Send an email to maddie.grady@outlook.com">let’s get in touch.</a> </p>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 my-auto">
+                        <a href = "./cv.pdf"><i class="far fa-sticky-note fa-7x"></i></a>
+                        <p></p>
+                        <a href = "./cv.pdf"><h3>My Resume</h3></a>
+                    <div class = "col-lg-1 col-md-1 d-none d-sm-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:100px">
+            <h1>Work</h1>
+            <p><i>Showcase of data collection, analysis and presentation.</i></p>
+            <div class = "row">
+                <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
+                    <h2 style = "text-align: center">Map-to-Image Change Detection</h2>
+                    <p></p>
+                    <p>Mapping land cover is really important to monitor and protect the Earth, but analysing image data to map land cover takes a lot of time and effort. This work was a collaboration I spearheaded between <a href = "https://www.aber.ac.uk/en/dges/research/earth-observation-laboratory/">Aberystwyth University Earth Observation and Ecosystem Dynamics Research Group</a>, <a href = "https://gov.wales/">Welsh Government</a> and <a href = "https://geosmartdecisions.co.uk/"> Geosmart Decisions</a> to develop a new method to simplify land cover mapping by updating old mapped land cover regions using new image data, map-to-image change detection.</p>
+                    
+                    <p>I coded and implemented several variations of this method on nearly 200 satellite images of Wales from between 1990 and 2017 to map changes in Coniferous forest extent. I performed further data analysis on the outputs to measure how, when, where and when forest extent was changing and delivered a report currently being used to inform government policy.</p>
+                </div>
+                <div class =  "col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 30px'>
+                    <video width="600" height="400" controls autoplay>
+                        <source src="./video/ChangeFeaturesCentralWales.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                    </video>
+                    <p>Forest Extent Changes in Central Wales</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
+                    <div class="logo-container bg-light" style = " border-radius: 25px;">
+                        <div class="flex-item">
+                            <img src="./img/python-logo.png" style = "height: 24px"alt="1" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/matplotlib-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/arcmap-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/qgis-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                    </div>
+                </div>
+            <div class = "row">
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 " style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 30px'>
+                    <h2 style = "text-align: center">Modelling an Ecological Niche</h2>
+                    <p></p>
+                    <p>Global biodiversity loss is occurring faster than ever and is an enormous problem. Statistical models have become very important in identifying potential habitats and preferred ecological conditions. In this study I constructed three models of Red Kite habitat in Wales to compare and understand the differences and inform conservation practices. I sourced and processed freely available ecological and red kite sighting data in R and ESRI ArcMap to create maximum entropy, boosted regression trees and random forest models.</p>
+                    <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <a href = "./RedKiteReport.pdf"><button type="button" class="btn btn-primary ">Read my Report</button></a>
+                    <img class=" img-fluid max-width: 50%"src = "./img/SDMOut.png" alt = "Maps of Ecological Niche for Red Kite From Each Model">
+                    </div>
+                    </div>
+                
+                </div>
+            <div class = "row">
+                <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
+                    <div class="logo-container bg-light" style = " border-radius: 25px;">
+                        <div class="flex-item">
+                            <img src="./img/python-logo.png" style = "height: 24px"alt="1" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/matplotlib-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/arcmap-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/qgis-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                        <div class="flex-item">
+                            <img src="./img/R-logo.jpeg"style = "height: 24px" alt="2" class="img-responsive" />
+                        </div>
+                    </div>
+                </div>
+            
+            <div class = "row">
+            <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
+                <h2 style = "text-align: center">Twitter Engagment Analysis</h2>
+                <p></p>
+                <p>Twitter is an free and growing data source that we can anlyse to find information about what people are doing, thinking and buying. For this personal project I downloaded and developed some basic analysis in python of what I’d been doing on my twitter account - <a href = "https://twitter.com/GradyMaddie">@GradyMaddie</a>. I devised code to clean, sort and extract what times I tweet (too early in the morning), the engagement levels on tweets (higher later in the day when people more people are awake) and what subjects they were on. I’ve tweeted 142 times. People have engaged with 14.79% of my tweets and 64.08% of my tweets are retweets of another users content.</p>
+                
+               
+                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style =  'padding-top:20px; padding-bottom: 20px'>
+                    <a href = "https://github.com/MaddieGrady/WebsiteCode/blob/master/TwitterAnalysis.py"><button type="button" class="btn btn-primary ">Check out my Code</button></a>
+                    
+                </div>
+                
+
+                <div class = "row">
+                    <div class = "col-lg-4 col-md-4 d-none d-md-block text-center">
+                        <img class=" img-fluid max-width:50%"src = "./img/Picture1.png">
+                            <p>Tweets and engagment by hour</p>
+                    </div>
+                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center" style =  'padding-top:20px; padding-bottom: 20px'>
+                        <img class=" img-fluid max-width:50%"src = "./img/WordItOut-word-cloud-4078267.png">
+                        <p>Hashtags which recieved engagment</p>
+                    </div>
+                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <img class=" img-fluid max-width:50%"src = "./img/Picture2.png">
+                            <p>Tweets and engagment each day of the week</p>
+                    </div>
+                    
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
+                        <div class="logo-container bg-light" style = " border-radius: 25px;">
+                            <div class="flex-item">
+                                <img src="./img/python-logo.png" style = "height: 24px"alt="1" class="img-responsive" />
+                            </div>
+                            <div class="flex-item">
+                                <img src="./img/matplotlib-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+			</div>
+        </div>
+        </div>
+        </div>
+        <!--Contact Footer-->
+        <div id="section3" class="page-footer bg-dark" style="padding-top:20px;padding-bottom:20px;color:white;position:relative">
+
+            <div class="box">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="box-part text-center">
+                            <a href="https://www.linkedin.com/in/maddiegrady/"><i class="fab fa-linkedin fa-3x"></i></a>
+                            <a href="https://twitter.com/GradyMaddie"><i class="fab fa-twitter-square fa-3x"></i></a>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="box-part text-center">
+                    <p></p>
+                    <p>Send a email to<br>maddie.grady@outlook.com</p>
+                </div>
+					<div class="footer-copyright text-center py-3">© 2020 Copyright: MGrady
+			  </div>
+            </div>
+        </div>
+        </div>
+    </body>
+    <script>
+    $('body').scrollspy({target: ''});
+    </script>
+    <script>
+        $('.popover-dismiss').popover({
+                                      trigger: 'focus'
+                                      })
+    </script>
+    <script>
+        $(function () {
+          $('[data-toggle="popover"]').popover()
+          })
+    </script>
+    <script>src = "./js/fallback.js"</script>
+</html>
