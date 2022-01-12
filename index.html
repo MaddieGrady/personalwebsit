@@ -1,226 +1,317 @@
-<!DOCTYPE = HTML>
-<html lang="<%= config.language %>"
-    <head>
-        <!--Page Title -->
-        <title>Maddie Grady</title>
-        <!-- CSS -->
-        <!-- Bootstrap CSS CDN -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src="https://kit.fontawesome.com/84793fd9ad.js" crossorigin="anonymous"></script>
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="-10">
-        <!--Navigation Bar-->
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <span class="nav-item order-md-last">
-                <a href="https://www.linkedin.com/in/maddiegrady/"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://twitter.com/maddiemapsstuff"><i class="fab fa-twitter-square fa-2x"></i></a>
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Maddie Grady</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+	</head>
+	<body class="is-preload">
 
-                
-            </span>
-            <div class = "navbar-collapse collapse" id = "navbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#section1">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section2">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section3">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <!--Top Banner-->
-        <div class="hero-image">
-            <div class="hero-text">
-                <h4 align="center" style= "color:white; padding-top:30px;font-style:italic"> Hey There!</h4>
-                <h1>I'm Maddie Grady</h1>
-                <p style = " padding-bottom: 10px">And I'm a Spatial Scientist</p>
-                <a href = "#section1"<button class = "btn btn-primary">Find out About Me</button></a>
-            </div>
-        </div>
-        
-        <!--About Me-->
-        <div id="section1" class="container-fluid" style= "padding-top:70px;padding-bottom:70px">
-            <div class = "row">
-                <div class = "col-lg-1 col-md-1 d-none d-sm-block">
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 " style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px' >
-			    <p>I'm an <b>Spatial and Earth Observation Scientist</b> at <a href = "https://www.forestresearch.gov.uk/"> Forest Research</a> and a <b>PhD Student</b> at <a href = "https://www.aber.ac.uk/en/">Aberystwyth University</a>. I love unpicking big data, solving mysteries and discovering new things about our world! You can find me engrossed in Python environments analysing and modelling satellite image data, sourcing information to build databases of the real world in GIS software or even sharpening my HTML skills to create web pages like this one. </p>
-                    <p><b>At heart I am a problem solver</b>. I love to take things apart and figure out the solution. Whether it's determining the most efficient code to analyse a time series or discovering the best graph to spread the message I've found in some data, <b>I love the challenge of finding out how it can be done</b> and devising and working on the solution. I think my problem solving brain is why I love to study languages - both coding and spoken - and the satisfaction I feel from finding just the right word for a piece of writing. As long as I have some sort of problem or something to puzzle over I'm happy!</p>
-                    <p> I want to be involved in <b>challenging projects, join an amazing team and advance my spatial science career.</b> Please take some time to look at my work and resume. If you’re interested in making this happen, <a tabindex = "0" class = "text-primary"data-toggle = "popover" data-trigger="focus"title="Contact Me" data-content = "Send an email to maddie.grady@outlook.com">let’s get in touch.</a> </p>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 my-auto">
-                        <a href = "./cv.pdf"><i class="far fa-sticky-note fa-7x"></i></a>
-                        <p></p>
-                        <a href = "./cv.pdf"><h3>My Resume</h3></a>
-                    <div class = "col-lg-1 col-md-1 d-none d-sm-block">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Portfolio-->
-        <div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:100px">
-            <h1>Work</h1>
-            <p><i>Showcase of data collection, analysis and presentation.</i></p>
-            <div class = "row">
-                <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
-                    <h2 style = "text-align: center">Map-to-Image Change Detection</h2>
-                    <p></p>
-                    <p>Mapping land cover is really important to monitor and protect the Earth, but analysing image data to map land cover takes a lot of time and effort. This work was a collaboration I spearheaded between <a href = "https://www.aber.ac.uk/en/dges/research/earth-observation-laboratory/">Aberystwyth University Earth Observation and Ecosystem Dynamics Research Group</a>, <a href = "https://gov.wales/">Welsh Government</a> and <a href = "https://geosmartdecisions.co.uk/"> Geosmart Decisions</a> to develop a new method to simplify land cover mapping by updating old mapped land cover regions using new image data, map-to-image change detection.</p>
-                    
-                    <p>I coded and implemented several variations of this method on nearly 200 satellite images of Wales from between 1990 and 2017 to map changes in Coniferous forest extent. I performed further data analysis on the outputs to measure how, where and when forest extent was changing and delivered a report currently being used to inform government policy.</p>
-                </div>
-                <div class =  "col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 30px'>
-                    <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="./img/ChangeFeaturesCentralWales.mp4" allowfullscreen></iframe>
+		<!-- Header -->
+			<header id="header">
+				<h1>Maddie Grady, <i>PhD</i></h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">Who I Am</a></li>
+						<li><a href="#two">What I Do</a></li>
+						<li><a href="#three">My Skills</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Hey,</h2>
+					</header>
+					<p>I'm <strong>Maddie Grady</strong> <br />
+					<em>Earth Observation Specialist and Spatial Scientist</em></p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>I love unpicking big data, solving mysteries and discovering new things about our world!
+						You can find me engrossed in Python environments, building software to analyse changes in land cover, 
+						modelling ecological systems or sourcing information to build databases of the 
+						real world in GIS software.<br> <br>
+
+						At heart I am a problem solver. I love to take things apart and figure out the solution. 
+						Whether it's determining the most efficient code to analyse a time series or discovering 
+						the best graph or animation to spread the message I've found in some data, 
+						I love the challenge of finding out how it can be done and devising and working on the solution. 
+						As long as I have some sort of problem or something to puzzle over I'm happy! 						
+					</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>Currently, I am a Spatial Scientist at <a href = "https://www.forestresearch.gov.uk/">Forest Research</a>. I use remote sensing tecnologies, python scripting and machine learning 
+						to make maps of tree canopy and forest species.
+						<br><br>
+						Prior to this I was a PhD researcher at <a href = "https://www.aber.ac.uk/en/">Aberystwyth University</a>, where I developed software to detect changes on the Earth's surface through time from satellites.
+
+					</p>     
+				</div>
+				<a href="#three" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Skills-->
+		<section id="three" class="main style2 right dark fullscreen">
+			<div class="content box style2">
+				<header>
+					<h2>My Skills</h2>
+				</header>
+					<p class = "skill">Python</p>
+					<div class="w3-light-grey w3-round-xlarge w3-small">
+					  <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:90%">90%</div>
+					</div>
+					<p>GIS</p>
+					<div class="w3-light-grey w3-round-xlarge w3-small">
+					  <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:85%">
+						<div class="w3-center w3-text-white">85%</div>
+					  </div>
+					</div>
+					<p>Machine Learning and Statistics</p>
+					<div class="w3-light-grey w3-round-xlarge w3-small">
+					  <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:80%">80%</div>
+					</div>
+					<p>Data Visulisation</p>
+					<div class="w3-light-grey w3-round-xlarge w3-small">
+					  <div class="w3-container w3-center w3-round-xlarge w3-indigo" style="width:75%">75%</div>
+					</div>
+					<br>  
 			</div>
-                    <p>Forest Extent Changes in Central Wales</p>
-                </div>
-            </div>
-            <div class = "row">
-                <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
-                    <div class="logo-container bg-light" style = " border-radius: 25px;">
-                        <div class="flex-item">
-                            <img src="./img/python-logo.png" style = "height: 24px"alt="1" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/matplotlib-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/arcmap-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/qgis-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                    </div>
-                </div>
-		</div>
-            <div class = "row">
-                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 " style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 30px'>
-                    <h2 style = "text-align: center">Modelling an Ecological Niche</h2>
-                    <p></p>
-                    <p>Global biodiversity loss is occurring faster than ever and is an enormous problem. Statistical models have become very important in identifying potential habitats and preferred ecological conditions. In this study I constructed three models of Red Kite habitat in Wales to compare and understand the differences and inform conservation practices. I sourced and processed freely available ecological and red kite sighting data in R and ESRI ArcMap to create maximum entropy, boosted regression trees and random forest models.</p>
-                    <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                    <a href = "./RedKiteReport.pdf"><button type="button" class="btn btn-primary ">Read my Report</button></a>
-                    <img class=" img-fluid max-width: 50%"src = "./img/SDMOut.png" alt = "Maps of Ecological Niche for Red Kite From Each Model">
-                    </div>
-                    </div>
-                
-                </div>
-            <div class = "row">
-                <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
-                    <div class="logo-container bg-light" style = " border-radius: 25px;">
-                        <div class="flex-item">
-                            <img src="./img/python-logo.png" style = "height: 24px"alt="1" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/matplotlib-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/arcmap-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/qgis-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                        <div class="flex-item">
-                            <img src="./img/R-logo.jpeg"style = "height: 24px" alt="2" class="img-responsive" />
-                        </div>
-                    </div>
-                </div>
-	</div>
+			<a href="#work" class="button style2 down anchored">Next</a>
+		</section>
 
-            <div class = "row">
-            <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
-                <h2 style = "text-align: center">Twitter Engagment Analysis</h2>
-                <p></p>
-                <p>Twitter is an free and growing data source that we can anlyse to find information about what people are doing, thinking and buying. For this personal project I downloaded and developed some basic analysis in python of what I’d been doing on my twitter account - <a href = "https://twitter.com/GradyMaddie">@GradyMaddie</a>. I devised code to clean, sort and extract what times I tweet (too early in the morning), the engagement levels on tweets (higher later in the day when people more people are awake) and what subjects they were on. I’ve tweeted 142 times. People have engaged with 14.79% of my tweets and 64.08% of my tweets are retweets of another users content.</p>
-                
-               
-                <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style =  'padding-top:20px; padding-bottom: 20px'>
-                    <a href = "https://github.com/MaddieGrady/WebsiteCode/blob/master/TwitterAnalysis.py"><button type="button" class="btn btn-primary ">Check out my Code</button></a>
-                    
-                </div>
-                
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Work</h2>
+						<p>Examples of some of the exciting projects I've had the opportunity to be heavily involved with. <br>
+						Check out my <a style = 'color :inherit' href = "./assets/docs/Maddie-Grady-CV.pdf" target="_blank" rel="noopener noreferrer">resume</a> for further details.</p>
+					</header>
+					<div class="fields">
+					<div class="wrapper">
+						<div class="cols left ">
+								  <div class="col " ontouchstart="this.classList.toggle('hover');">
+									  <div class="container">
+										  <div class="front" style="background-image: url(./images/fulls/larch.jpg)">
+											  <div class="inner">
+												  <p>Locating Larch</p>
+									<span>Forest Research</span>
+											  </div>
+										  </div>
+										  <div class="back">
+											  <div class="inner">
+												<p>Developing software and statistical approaches to assign probablities of larch presence to a time series of satellite imagery, based on the defoliation of larch stands.</p>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+								  <div class="col" ontouchstart="this.classList.toggle('hover');">
+									  <div class="container">
+										  <div class="front" style="background-image: url(./images/fulls/tow3.png)">
+											  <div class="inner">
+												  <p>Individual Tree Identification</p>
+									<span>Forest Research</span>
+											  </div>
+										  </div>
+										  <div class="back">
+											  <div class="inner">
+												  <p>Developing python software to delinate individual tree canopies using aerial photography, LiDAR, segmentation and machine learning.</p>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+								  <div class="col" ontouchstart="this.classList.toggle('hover');">
+									  <div class="container">
+										  <div class="front" style="background-image: url(./images/fulls/cnn.png)">
+											  <div class="inner">
+												  <p>Deep Learning for Tree Canopy Delination</p>
+									<span>Forest Research, Cambridge University, Aberdeen University</span>
+											  </div>
+										  </div>
+										  <div class="back">
+											  <div class="inner">
+												  <p>Transfer learning of R-CNN model to identify tree canopy. <br> <a style = "color: inherit" href = "https://colab.research.google.com/drive/1QQzq0hUygQYICX5Rxu0VIuVOwxH1JtZV?usp=sharing", target="_blank" rel="noopener noreferrer">Google Colab Notebook</a></p>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+								  
+								  <div class="col" ontouchstart="this.classList.toggle('hover');">
+									  <div class="container">
+										  <div class="front" style="background-image: url(./images/changedetecion.png)">
+											  <div class="inner">
+												  <p>Land Cover Change Detection</p>
+									<span>Aberystwyth University, Welsh Government, Geosmart Decisions</span>
+											  </div>
+										  </div>
+										  <div class="back">
+											  <div class="inner">
+												  <p>Development of a novel approach to monitor current and historic land cover change using old map regions and statistical deviations in new image data. </p>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+								  <div class="col" ontouchstart="this.classList.toggle('hover');">
+									  <div class="container">
+										  <div class="front" style="background-image: url(./images/fulls/redkite.jpg)">
+											  <div class="inner">
+												  <p>Red Kite Habitat Modeling</p>
+									<span>Aberystwyth University</span>
+											  </div>
+										  </div>
+										  <div class="back">
+											  <div class="inner">
+												  <p>Modelling of the ecological nice of Red Kites in Wales. Generating a series of habitat maps and datasets of bird numbers and suitibility. <br><a style = "color: inherit" href = "./assets/docs/RedKiteReport.pdf", target="_blank" rel="noopener noreferrer">Report</a>  </p>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+								  <div class="col" ontouchstart="this.classList.toggle('hover');">
+									  <div class="container">
+										  <div class="front" style="background-image: url(images/fulls/twitter.png)">
+											  <div class="inner">
+												  <p>Twitter Engagement</p>
+											  </div>
+										  </div>
+										  <div class="back">
+											  <div class="inner">
+												  <p>Analysis of times of day and topics that recieved highest engagement on my personal twitter account. </p>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+				</div>	</div>
+			</section>
 
-                <div class = "row">
-                    <div class = "col-lg-4 col-md-4 d-none d-md-block text-center">
-                        <img class=" img-fluid max-width:50%"src = "./img/Picture1.png">
-                            <p>Tweets and engagment by hour</p>
-                    </div>
-                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center" style =  'padding-top:20px; padding-bottom: 20px'>
-                        <img class=" img-fluid max-width:50%"src = "./img/WordItOut-word-cloud-4078267.png">
-                        <p>Hashtags which recieved engagment</p>
-                    </div>
-                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-                        <img class=" img-fluid max-width:50%"src = "./img/Picture2.png">
-                            <p>Tweets and engagment each day of the week</p>
-                    </div>
-                    
-                </div>
-                <div class = "row">
-                    <div class = "col-lg-4 col-md-4 col-sm-12 col-xs-12" style = 'text-align: justify;text-justify: inter-word; font-size:large; padding-top:20px; padding-bottom: 20px'>
-                        <div class="logo-container bg-light" style = " border-radius: 25px;">
-                            <div class="flex-item">
-                                <img src="./img/python-logo.png" style = "height: 24px"alt="1" class="img-responsive" />
-                            </div>
-                            <div class="flex-item">
-                                <img src="./img/matplotlib-logo.png"style = "height: 24px" alt="2" class="img-responsive" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-			</div>
-        </div>
-        </div>
-        </div>
-        <!--Contact Footer-->
-        <div id="section3" class="page-footer bg-dark" style="padding-top:20px;padding-bottom:20px;color:white;position:relative">
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello.</h2>
+						
+					</header>
+					<div class="box">
+						<div class="contactcard">
+							<img src="./images/Headshot.JPG" alt="John" style="width:100%">
+							<h1>Maddie Grady</h1>
+							<p class="title">Send an email to: <a style = 'color :inherit'href="mailto:maddie.grady@outlook.com">maddie.grady@outlook.com</a></p>
+							</div>
+						</div>
 
-            <div class="box">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="box-part text-center">
-                            <a href="https://www.linkedin.com/in/maddiegrady/"><i class="fab fa-linkedin fa-3x"></i></a>
-                            <a href="https://twitter.com/GradyMaddie"><i class="fab fa-twitter-square fa-3x"></i></a>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="box-part text-center">
-                    <p></p>
-                    <p>Send a email to<br>maddie.grady@outlook.com</p>
-                </div>
-					<div class="footer-copyright text-center py-3">© 2020 Copyright: MGrady
-			  </div>
-            </div>
-        </div>
-        </div>
-    </body>
-    <script>
-    $('body').scrollspy({target: ''});
-    </script>
-    <script>
-        $('.popover-dismiss').popover({
-                                      trigger: 'focus'
-                                      })
-    </script>
-    <script>
-        $(function () {
-          $('[data-toggle="popover"]').popover()
-          })
-    </script>
-    <script>src = "./js/fallback.js"</script>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://twitter.com/maddiemapsstuff" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://linkedin.com/in/maddiegrady" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/MaddieGrady" class="icon brands fa-github"><span class="label">LinkedIn</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Maddie Grady</li><li>Template Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+			<script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+			<script>
+				anychart.onDocumentReady(function() {
+				var skills = [
+								{"x": "Python", "value": 92, category: "Language"},
+								{"x": "R", "value": 50, category: "Language"},
+								{"x": "HTML", "value": 25, category: "Language"},
+								{"x": "CSS", "value": 25, category: "Language"},
+								{"x": "Javascript", "value": 10, category: "Language"},
+								{"x": "QGIS", "value": 75, category: "GIS"},
+								{"x": "ESRI Arc", "value": 75, category: "GIS"},
+								{"x": "Erdas", "value": 45, category: "GIS"},
+								{"x": "eCognition", "value": 30, category: "GIS"},
+								{"x": "Machine Learning", "value": 90, category: "Data Science"},
+								{"x": "Deep Learning", "value": 34, category: "Data Science"},
+								{"x": "Statistics", "value": 64, category: "Data Science"},
+								{"x": "Version Control", "value": 42, category: "Software Development"},
+								{"x": "API", "value": 22, category: "Software Development"},
+								{"x": "Earth Observation", "value": 94, category: "Indo-European"}
+							];
+				// create a tag (word) cloud chart
+							var chart = anychart.tagCloud(data);
+
+							// set a chart title
+							chart.title('My Skills')
+							// set an array of angles at which the words will be laid out
+							chart.angles([0])
+							// enable a color range
+							chart.colorRange(true);
+							// set the color range length
+							chart.colorRange().length('80%');
+
+							// display the word cloud chart
+							chart.container("wordcloud");
+							chart.draw();
+							});
+			</script>
+			<script>$('.flipcard').hover(function (e) {
+				var $card = $(this);
+				if ($card.hasClass("flipped")) {
+					$card.removeClass('flipped');
+				} else {
+					$card.addClass('flipped');
+				}
+			});</script>
+
+			
+
+	</body>
 </html>
